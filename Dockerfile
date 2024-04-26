@@ -8,7 +8,7 @@ WORKDIR /app
 COPY pyhtoncode.py /app/
 
 # Copy the text file into the container at /app
-COPY random_paragraphs.txt /app/
+COPY paragraphs.txt /app/
 
 # Install any needed dependencies specified in requirements.txt
 RUN pip install nltk
