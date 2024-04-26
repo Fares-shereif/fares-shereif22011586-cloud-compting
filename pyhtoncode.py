@@ -7,7 +7,7 @@ nltk.download('punkt')
 nltk.download('stopwords')
 
 # File path to the random_paragraphs.txt within the Docker container
-file_path = "random_paragraphs.txt"
+file_path = "paragraphs.txt"
 
 # Read the contents of the file
 with open(file_path, "r") as file:
